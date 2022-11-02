@@ -1,0 +1,122 @@
+.similar-item {
+  background-color: #202020;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-top: 24px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  min-height: 50vh;
+  width: 350px;
+}
+@media screen and (min-width: 768px) {
+  .similar-item {
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+  }
+}
+.title-logo-container {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 54px;
+  height: 54px;
+  margin-right: 20px;
+}
+.line-ht {
+  line-height: 0px;
+}
+.line {
+  border: 1px solid #475569;
+  margin-top: 0px;
+  width: 100%;
+}
+.title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.rating-card {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.rating {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.location-empType-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+.location {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.emp-icon {
+  margin-left: 20px;
+  margin-right: 5px;
+  color: #ffffff;
+  height: 24px;
+  width: 24px;
+}
+.employment-type {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 0px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .description-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 44px;
+  }
+}
+
+.job-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.8;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}

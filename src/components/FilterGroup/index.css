@@ -1,0 +1,45 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.line {
+  border: 1px solid #475569;
+  margin-top: 0px;
+}
+.type-of-employment {
+  color: #ffffff;
+}
+.emp-types-list {
+  padding-left: 0px;
+}
+.salary-range-list {
+  padding-left: 0px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.input {
+  width: 14px;
+  height: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.label-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}

@@ -1,0 +1,79 @@
+.profile-section {
+  background-color: #cbd5e1;
+  border-radius: 16px;
+  height: 200px;
+  width: 250px;
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-section {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 24px;
+    padding-left: 30px;
+    padding-bottom: 14px;
+    padding-right: 30px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+  }
+}
+
+.profile-image {
+  width: 38px;
+  height: 38px;
+}
+.profile-heading {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.short-bio {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-align: left;
+  line-height: 24px;
+}
+
+.profile-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 30%;
+  }
+}
+.profile-failure-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #4f46e5;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
